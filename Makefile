@@ -1,5 +1,5 @@
 CXX = clang++ -Xclang -fopenmp
-CXXFLAGS = -g -std=c++11 -Wall -Wextra 
+CXXFLAGS = -o3 -g -std=c++11 -Wall -Wextra 
 
 NCURSES_CFLAGS = `pkg-config --cflags ncursesw`
 NCURSES_LIBS =  `pkg-config --libs ncursesw`
